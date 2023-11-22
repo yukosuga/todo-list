@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+form input,
+button {
+  color: #535353;
+  font-size: 2.5rem;
+  font-family: "Ysabeau", sans-serif;
+}
+
+.container {
+  width: 60rem;
+  margin: 5rem auto;
+  padding: 8rem;
+  background-color: rgb(255, 221, 227);
+}
+
+h1 {
+  font-family: "Gotu", sans-serif;
+  font-weight: lighter;
+  color: #afaaaa;
+  font-size: 4rem;
+  border-bottom: 0.2rem solid #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+li input:checked + span {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+li input {
+  margin-right: 1.5rem;
+}
+
+input:focus {
+  outline: none;
+  border: 0.1rem solid #404040;
+}
+
+form {
+  display: flex;
+  gap: 2rem;
+}
+
+form input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  font-size: 2rem;
+  padding: 0.8rem 1.5rem;
+}
