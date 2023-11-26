@@ -75,3 +75,15 @@ button {
   font-size: 2rem;
   padding: 0.8rem 1.5rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    margin: 5rem auto;
+    padding: 8rem;
+}
+
+form input {
+width: 90%;
+}
+}
