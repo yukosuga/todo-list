@@ -1,5 +1,5 @@
 # My Todo List 📋💕
-## Mini Application for JavaScript Basic Practice
+## Mini Application for JavaScript DOM Practice
 
 ![Static Badge](https://img.shields.io/badge/HTML5-ffeaf4?style=for-the-badge&logo=HTML5)  
 ![Static Badge](https://img.shields.io/badge/CSS3-ffeaf4?style=for-the-badge&logo=CSS3)  
